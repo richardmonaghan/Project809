@@ -11,7 +11,7 @@ public class ArrayTopic extends AbstractTopic
 {
    public ArrayTopic()
    {
-      this.topic = "Arrays";
+      this.topic = "4";
 
       this.questionsAndAnswers.add(new QuestionAndAnswer("Does an array have a fixed size? (y/n)", "y"));
       this.questionsAndAnswers.add(new QuestionAndAnswer("Can arrays contain different data types?", "n"));

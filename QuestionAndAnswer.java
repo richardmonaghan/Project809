@@ -4,7 +4,6 @@ public class QuestionAndAnswer
 {
    protected String question;
    protected String answer;
-   protected String answerB;
 
    public QuestionAndAnswer() {
    }//default constructor
@@ -21,5 +20,11 @@ public class QuestionAndAnswer
    public boolean isCorrect(String userAnswer) {
       return userAnswer.toLowerCase().equals(answer);
    }//isCorrect
+
+   public void correctAnswer() {
+      System.out.println("The correct answer is :" + answer + "\n");
+   }//askQ
+
+
 
 }//class
